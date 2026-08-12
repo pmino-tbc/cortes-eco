@@ -30,6 +30,10 @@ export default function RootLayout({
     <html lang="es">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        style={{
+          fontFamily:
+            'var(--font-geist-sans), "Inter", "Segoe UI", system-ui, sans-serif',
+        }}
       >
         {children}
       </body>
